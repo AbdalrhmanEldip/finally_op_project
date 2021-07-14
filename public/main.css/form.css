@@ -1,0 +1,126 @@
+::-webkit-scrollbar
+{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb
+{
+    width: 10px;
+    background-color: #454d55;
+}
+::-webkit-scrollbar-track-piece
+{
+    background-color: rgb(161, 156, 156);
+}
+.append_form
+{
+    transition: all .3s ease;
+    position: fixed !important;
+    top: 50%;
+    left: -100%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    background-color: #1a1a2e;
+    width: 80%;
+    margin: auto;
+    height: 600px;
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 30px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+}
+.append_form  input,.main_append_form select
+{
+    width: 80%;
+    border: 2px solid #fff;
+    outline: 0;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.append_form input:hover
+{
+    background:#454d55;
+    color: #fff;
+}
+.append_form h1
+{
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px 0;
+    padding-left: 90px;
+    align-self: flex-start;
+    text-decoration: underline;
+}
+.close
+{
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    cursor: pointer;
+    color: #fff !important;
+}
+.active_form
+{
+    left: 50%;
+}
+.back_image
+{
+    background-image: url('../images/back_2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.select_actives_controlls
+{
+    outline: 0;
+    border: 0;
+    flex: 1;
+    border-radius: 10px;
+}
+.expire_form
+{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.expire_form button
+{
+    outline: 0;
+    border: 0;
+    background-color: #1a1a2e;
+    color: #fff;
+    font-size: .9rem;
+}
+.active_admine
+{
+    width: 5px;
+    height: 5px;
+    display: inline-block;
+    border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+    background-color: lightseagreen;
+}
+/* .append_form_2
+{
+    left: 50% !important;
+} */
